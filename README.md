@@ -1,35 +1,3 @@
-# **ZoeDepth: Combining relative and metric depth** (Official implementation)  <!-- omit in toc -->
-[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/isl-org/ZoeDepth)
-[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/shariqfarooq/ZoeDepth)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![PyTorch](https://img.shields.io/badge/PyTorch_v1.10.1-EE4C2C?&logo=pytorch&logoColor=white) 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/zoedepth-zero-shot-transfer-by-combining/monocular-depth-estimation-on-nyu-depth-v2)](https://paperswithcode.com/sota/monocular-depth-estimation-on-nyu-depth-v2?p=zoedepth-zero-shot-transfer-by-combining)
-
->#### [ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth](https://arxiv.org/abs/2302.12288)
-> ##### [Shariq Farooq Bhat](https://shariqfarooq123.github.io), [Reiner Birkl](https://www.researchgate.net/profile/Reiner-Birkl), [Diana Wofk](https://dwofk.github.io/), [Peter Wonka](http://peterwonka.net/), [Matthias Müller](https://matthias.pw/)
-
-[[Paper]](https://arxiv.org/abs/2302.12288)
-
-![teaser](assets/zoedepth-teaser.png)
-
-## **Table of Contents** <!-- omit in toc -->
-- [**Usage**](#usage)
-  - [Using torch hub](#using-torch-hub)
-  - [Using local copy](#using-local-copy)
-    - [Using local torch hub](#using-local-torch-hub)
-    - [or load the models manually](#or-load-the-models-manually)
-  - [Using ZoeD models to predict depth](#using-zoed-models-to-predict-depth)
-- [**Environment setup**](#environment-setup)
-- [**Sanity checks** (Recommended)](#sanity-checks-recommended)
-- [Model files](#model-files)
-- [**Evaluation**](#evaluation)
-  - [Evaluating offical models](#evaluating-offical-models)
-  - [Evaluating local checkpoint](#evaluating-local-checkpoint)
-- [**Training**](#training)
-- [**Gradio demo**](#gradio-demo)
-- [**Citation**](#citation)
-
-
 ## **Usage**
 It is recommended to fetch the latest [MiDaS repo](https://github.com/isl-org/MiDaS) via torch hub before proceeding:
 ```python
