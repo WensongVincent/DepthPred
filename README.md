@@ -162,6 +162,9 @@ The dataset name should match the corresponding key in `utils.config.DATASETS_CO
 ## **Training**
 Download training datasets as per instructions given [here](https://github.com/cleinc/bts/tree/master/pytorch#nyu-depvh-v2). Or:
 ```bash
+cd DepthPred
+mkdir datasets && cd datasets
+mkdir nyu_depth_v2 && cd nyu_depth_v2
 gdown 1AysroWpfISmm-yRFGBgFTrLy6FjQwvwP
 unzip sync.zip
 ```
