@@ -160,7 +160,13 @@ Pretrained resources are prefixed with `url::` to indicate weights should be fet
 The dataset name should match the corresponding key in `utils.config.DATASETS_CONFIG` .
 
 ## **Training**
-Download training datasets as per instructions given [here](https://github.com/cleinc/bts/tree/master/pytorch#nyu-depvh-v2). Then for training a single head model on NYU-Depth-v2 :
+Download training datasets as per instructions given [here](https://github.com/cleinc/bts/tree/master/pytorch#nyu-depvh-v2). Or:
+```bash
+gdown 1AysroWpfISmm-yRFGBgFTrLy6FjQwvwP
+unzip sync.zip
+```
+
+Then for training a single head model on NYU-Depth-v2 :
 ```bash
 python train_mono.py -m zoedepth --pretrained_resource=""
 ```
