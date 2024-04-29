@@ -13,7 +13,7 @@ Our Depth Anything models primarily focus on robust *relative* depth estimation.
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | ZoeDepth | 0.955 | 0.995 | 0.999 | 0.075 | 0.270 | 0.032 |
 | ZoeDAM-L | **0.984** | **0.998** | **1.000** | **0.056** | **0.206** | **0.024** |
-| ZoeDAM-B (Ours) | 0.980 | 0.997 | **1.000** | 0.061 | 0.235 | 0.029 |
+| ZoeDAM-B (Ours) | 0.976 | 0.997 | **1.000** | 0.061 | 0.254 | 0.029 |
 
 
 
