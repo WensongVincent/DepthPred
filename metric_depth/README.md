@@ -53,16 +53,3 @@ python train_mono.py -m zoedepth -d <nyu | kitti> --pretrained_resource=""
 ```
 
 This will automatically use our Depth Anything pre-trained ViT-L encoder.
-
-## Citation
-
-If you find this project useful, please consider citing:
-
-```bibtex
-@article{depthanything,
-      title={Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data}, 
-      author={Yang, Lihe and Kang, Bingyi and Huang, Zilong and Xu, Xiaogang and Feng, Jiashi and Zhao, Hengshuang},
-      journal={arXiv:2401.10891},
-      year={2024},
-}
-```
