@@ -23,8 +23,9 @@ Our Depth Anything models primarily focus on robust *relative* depth estimation.
 ## Installation
 
 ```bash
-conda env create -n depth_anything_metric --file environment.yml
+conda env create -n zoedam python=3.9.7
 conda activate depth_anything_metric
+pip install -r requirements.txt
 ```
 
 Please follow [ZoeDepth](https://github.com/isl-org/ZoeDepth) to prepare the training and test datasets.
