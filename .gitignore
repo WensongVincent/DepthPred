@@ -148,3 +148,4 @@ dmypy.json
 .pyre/
 
 datasets/nyu_depth_v2/sync/
+metric_depth/data
