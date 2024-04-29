@@ -49,7 +49,7 @@ python evaluate.py -m zoedepth --pretrained_resource="local::./checkpoints/depth
 Please first download our Depth Anything pre-trained model [here](https://huggingface.co/spaces/LiheYoung/Depth-Anything/blob/main/checkpoints/depth_anything_vitl14.pth), and put it under the ``checkpoints`` directory.
 
 ```bash
-python train_mono.py -m zoedepth -d <nyu | kitti> --pretrained_resource=""
+python train_mono.py -m zoedepth -d nyu --pretrained_resource=""
 ```
 
 This will automatically use our Depth Anything pre-trained ViT-L encoder.
