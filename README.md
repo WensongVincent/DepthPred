@@ -12,7 +12,7 @@ Our Depth Anything models primarily focus on robust *relative* depth estimation.
 | Method | $\delta_1 \uparrow$ | $\delta_2 \uparrow$ | $\delta_3 \uparrow$ | AbsRel $\downarrow$ | RMSE $\downarrow$ | log10 $\downarrow$ |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | ZoeDepth | 0.951 | 0.994 | 0.999 | 0.077 | 0.282 | 0.033 |
-| Depth Anything | **0.984** | **0.998** | **1.000** | **0.056** | **0.206** | **0.024** |
+| ZoeDAM | **0.984** | **0.998** | **1.000** | **0.056** | **0.206** | **0.024** |
 
 
 
