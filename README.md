@@ -1,13 +1,7 @@
-# Depth Anything for Metric Depth Estimation
+# ZoeDAM
 
-Our Depth Anything models primarily focus on robust *relative* depth estimation. To achieve *metric* depth estimation, we follow ZoeDepth to fine-tune from our Depth Anything pre-trained encoder with metric depth information from NYUv2.
+Depth Anything models focused on robust *relative* depth estimation. To achieve *metric* depth estimation, we follow ZoeDepth to fine-tune from Depth Anything pre-trained encoder with metric depth information from NYUv2.
 
-
-## Performance
-
-### *In-domain* metric depth estimation
-
-#### NYUv2
 
 | Method | $\delta_1 \uparrow$ | $\delta_2 \uparrow$ | $\delta_3 \uparrow$ | AbsRel $\downarrow$ | RMSE $\downarrow$ | log10 $\downarrow$ |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
@@ -15,10 +9,6 @@ Our Depth Anything models primarily focus on robust *relative* depth estimation.
 | ZoeDAM-L | **0.984** | **0.998** | **1.000** | **0.056** | **0.206** | **0.024** |
 | ZoeDAM-B (Ours) | 0.976 | 0.997 | **1.000** | 0.061 | 0.254 | 0.029 |
 
-
-
-
-## Pre-trained metric depth estimation models
 
 ## Installation
 
