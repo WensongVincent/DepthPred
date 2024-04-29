@@ -19,8 +19,6 @@ Our Depth Anything models primarily focus on robust *relative* depth estimation.
 
 ## Pre-trained metric depth estimation models
 
-We provide [two pre-trained models](https://huggingface.co/spaces/LiheYoung/Depth-Anything/tree/main/checkpoints_metric_depth), one for *indoor* metric depth estimation trained on NYUv2, and the other for *outdoor* metric depth estimation trained on KITTI. 
-
 ## Installation
 
 ```bash
