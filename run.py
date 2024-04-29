@@ -94,7 +94,7 @@ if __name__ == '__main__':
             combined_results = cv2.hconcat([raw_image, split_region, depth])
             
             caption_space = np.ones((caption_height, combined_results.shape[1], 3), dtype=np.uint8) * 255
-            captions = ['Raw image', 'Depth Anything']
+            captions = ['Raw image', 'ZoeDAM']
             segment_width = w + margin_width
             
             for i, caption in enumerate(captions):
