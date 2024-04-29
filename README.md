@@ -1,6 +1,6 @@
 # Depth Anything for Metric Depth Estimation
 
-Our Depth Anything models primarily focus on robust *relative* depth estimation. To achieve *metric* depth estimation, we follow ZoeDepth to fine-tune from our Depth Anything pre-trained encoder with metric depth information from NYUv2 or KITTI.
+Our Depth Anything models primarily focus on robust *relative* depth estimation. To achieve *metric* depth estimation, we follow ZoeDepth to fine-tune from our Depth Anything pre-trained encoder with metric depth information from NYUv2.
 
 
 ## Performance
