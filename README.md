@@ -30,15 +30,6 @@ pip install -r requirements.txt
 
 Please follow [ZoeDepth](https://github.com/isl-org/ZoeDepth) to prepare the training and test datasets.
 
-## Evaluation
-
-Make sure you have downloaded our pre-trained metric-depth models [here](https://drive.google.com/drive/u/0/folders/1Zy1AVGhMWRFUrDaaegoy6A_EgBxuAJOp) (for evaluation) and pre-trained relative-depth model [here](https://huggingface.co/spaces/LiheYoung/Depth-Anything/blob/main/checkpoints/depth_anything_vitl14.pth) (for initializing the encoder) and put them under the ``checkpoints`` directory.
-
-Indoor:
-```bash
-python evaluate.py -m zoedepth --pretrained_resource="local::./checkpoints/depth_anything_metric_depth_indoor.pt" -d <nyu | sunrgbd | ibims | hypersim_test>
-```
-
 ## Training
 
 Please first download our Depth Anything pre-trained model [here](https://huggingface.co/spaces/LiheYoung/Depth-Anything/blob/main/checkpoints/depth_anything_vitl14.pth), and put it under the ``checkpoints`` directory.
@@ -48,3 +39,12 @@ python train_mono.py -m zoedepth -d nyu --pretrained_resource=""
 ```
 
 This will automatically use our Depth Anything pre-trained ViT-L encoder.
+
+## Evaluation
+
+Make sure you have downloaded our pre-trained metric-depth models [here](https://drive.google.com/drive/u/0/folders/1Zy1AVGhMWRFUrDaaegoy6A_EgBxuAJOp) (for evaluation) and pre-trained relative-depth model [here](https://huggingface.co/spaces/LiheYoung/Depth-Anything/blob/main/checkpoints/depth_anything_vitl14.pth) (for initializing the encoder) and put them under the ``checkpoints`` directory.
+
+Indoor:
+```bash
+python evaluate.py -m zoedepth --pretrained_resource="local::./checkpoints/depth_anything_metric_depth_indoor.pt" -d <nyu | sunrgbd | ibims | hypersim_test>
+```
