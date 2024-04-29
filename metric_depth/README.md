@@ -15,27 +15,6 @@ Our Depth Anything models primarily focus on robust *relative* depth estimation.
 | Depth Anything | **0.984** | **0.998** | **1.000** | **0.056** | **0.206** | **0.024** |
 
 
-#### KITTI
-
-| Method | $\delta_1 \uparrow$ | $\delta_2 \uparrow$ | $\delta_3 \uparrow$ | AbsRel $\downarrow$ | RMSE $\downarrow$ | log10 $\downarrow$ |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| ZoeDepth | 0.971 | 0.996 | 0.999 | 0.054 | 2.281 | 0.082 |
-| Depth Anything | **0.982** | **0.998** | **1.000** | **0.046** | **1.896** | **0.069** |
-
-
-### *Zero-shot* metric depth estimation
-
-Indoor: NYUv2 $\rightarrow$ SUN RGB-D, iBims-1, and HyperSim<br>
-Outdoor: KITTI $\rightarrow$ Virtual KITTI 2 and DIODE Outdoor
-
-
-| Method | SUN || iBims || HyperSim || vKITTI || DIODE Outdoor ||
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| | AbsRel | $\delta_1$ | AbsRel | $\delta_1$ | AbsRel | $\delta_1$ | AbsRel | $\delta_1$ | AbsRel | $\delta_1$ |
-| ZoeDepth | 0.520 | 0.545 | 0.169 | 0.656 | 0.407 | 0.302 | 0.106 | 0.844 | 0.814 | 0.237 |
-| Depth Anything | **0.500** | **0.660** | **0.150** | **0.714** | **0.363** | **0.361** | **0.085** | **0.913** | **0.794** | **0.288** |
-
-
 
 
 ## Pre-trained metric depth estimation models
