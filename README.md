@@ -14,7 +14,7 @@ Depth Anything models focused on robust *relative* depth estimation. To achieve 
 
 ```bash
 conda env create -n zoedam python=3.9.7
-conda activate depth_anything_metric
+conda activate zoedam
 pip install -r requirements.txt
 ```
 
